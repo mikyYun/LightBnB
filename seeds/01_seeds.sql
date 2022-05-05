@@ -9,7 +9,7 @@ VALUES ('Eva Stanley', 'sebastianguerra@ymail.com', '$2a$10$FB/BOAVhpuLvpOREQVmv
 ('Sue Lunal', 'jaycereynolds@inbox.com', '$2a$10$FB/BOAVhpuLvpOREQVmvmezD4ED/.JBIDRh70tGevYzYzQgFId2u.');
 
 
-INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_washrooms, number_of_bedrooms, country, street,  city, province, post_code, active )
+INSERT INTO properties (owner_id, title, description, thumbnail_photo_url, cover_photo_url, cost_per_night, parking_spaces, number_of_bathrooms, number_of_bedrooms, country, street,  city, province, post_code, active )
 VALUES (1, 'Glass Ceil', 'description', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', '500', 6, 4, 7, 'Canada', '1 st Road', 'Vic', 'BC', '12345', 'true'),
 (1, 'Glass Ground', 'description', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', '5000', 6, 5, 7, 'Canada', '2 nd Road', 'Victoria', 'BC', '12346', 'true'),
 (3, 'Space House', 'description', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg?auto=compress&cs=tinysrgb&h=350', 'https://images.pexels.com/photos/2121121/pexels-photo-2121121.jpeg', '1111', 5, 4, 5, 'Canada', '3 rd Road', 'Nanaimo', 'BC', '12341', 'true'),
