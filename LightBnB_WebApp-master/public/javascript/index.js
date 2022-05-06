@@ -1,6 +1,6 @@
 $(() => {
   getAllListings().then(function( json ) {
-    propertyListings.addProperties(json.properties);
-    views_manager.show('listings');
+    propertyListingsButton.addProperties(json.properties);
+    views_manager.show('reservation');
   });
 });

@@ -38,7 +38,6 @@ const getUserWithId = function(id) {
     .query(`SELECT * FROM users
     WHERE users.id = $1`, [id])
     .then((res) => {
-      // console.log('res ID is :', res.rows[0]);
         return res.rows[0]
     })
     .catch((err) => {
